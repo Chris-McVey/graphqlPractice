@@ -1,0 +1,25 @@
+{
+  "name": "graphqlpractice",
+  "version": "1.0.0",
+  "description": "Just getting used to GraphQL",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-McVey/graphqlPractice.git"
+  },
+  "author": "Chris McVey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-McVey/graphqlPractice/issues"
+  },
+  "homepage": "https://github.com/Chris-McVey/graphqlPractice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.9"
+  }
+}
